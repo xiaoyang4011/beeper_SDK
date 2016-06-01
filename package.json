@@ -1,0 +1,35 @@
+{
+  "name": "beeper_api",
+  "version": "0.0.6",
+  "description": "beeper_api base",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@git.coding.net:7csa/beeper_api.git"
+  },
+  "keywords": [
+    "beeper_api"
+  ],
+  "author": "liuxiaoyang",
+  "dependencies": {
+    "bluebird": "3.3.4",
+    "lodash": "4.11.1",
+    "request-promise": "2.0.1"
+  },
+  "devDependencies": {
+    "grunt": "0.4.5",
+    "grunt-cli": "0.1.13",
+    "grunt-concurrent": "2.2.1",
+    "grunt-contrib-jshint": "0.12.0",
+    "grunt-contrib-watch": "0.6.1",
+    "grunt-jscs": "2.7.0",
+    "grunt-mocha-test": "0.12.7",
+    "grunt-nodemon": "0.4.1",
+    "load-grunt-tasks": "3.4.0",
+    "mocha": "2.2.5",
+    "should": "4.0.4"
+  }
+}
